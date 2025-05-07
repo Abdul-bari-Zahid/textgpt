@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ai Chat Bot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="./../asset/logo.png">
+    <meta name="title" content="Free Text GPT? Best Online AI Guide & Info">
+    <meta name="description" content="**What is Text GPT?** Discover the power of cutting-edge AI with **Text GPT**, your go-to solution for generating high-quality, engaging text for any purpose. Forget writer's block and time-consuming content creation. **Text GPT** harnesses the latest advancements in artificial intelligence to provide you with compelling content in seconds.">
+    <meta name="keywords" content=" what is text gpt ,   text gpt free  ,  text gpt online  ,  best text gpt">
+    <meta name="author" content="Abdul Bari">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Free Text GPT? Best Online AI Guide & Info">
+    <meta property="og:description" content="**What is Text GPT?** Discover the power of cutting-edge AI with **Text GPT**, your go-to solution for generating high-quality, engaging text for any purpose. Forget writer's block and time-consuming content creation. **Text GPT** harnesses the latest advancements in artificial intelligence to provide you with compelling content in seconds.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Free Text GPT? Best Online AI Guide & Info">
+    <meta property="twitter:description" content="**What is Text GPT?** Discover the power of cutting-edge AI with **Text GPT**, your go-to solution for generating high-quality, engaging text for any purpose. Forget writer's block and time-consuming content creation. **Text GPT** harnesses the latest advancements in artificial intelligence to provide you with compelling content in seconds.">
+    <title>Welcome To Text GPT!</title>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>AI Chat</h2>
+        <input type="text" id="search" placeholder="Search Prompt...">
+        <button onclick="newPrompt()">+ New Prompt</button>
+        <div class="history" id="history">
+          <!-- History Items Here -->
+        </div>
+      </div>
+    
+      <div class="chat-section">
+        <div class="chat-container" id="chatContainer">
+          <!-- Chats Appear Here -->
+          <div class="ai-chat-box">
+            <img src="./ai.png" alt="AI">
+            <div class="ai-chat-area typing">Hello! How Can I Help you Today?</div>
+          </div>
+        </div>
+    
+        <div class="chat-input">
+          <input type="text" id="prompt" placeholder="Message...">
+          <label for="imageInput">📷</label>
+          <input type="file" id="imageInput" accept="image/*">
+          <button id="voiceBtn">🎤</button>
+          <button id="submit">↑</button>
+        </div>
+      </div>
+    
+  <script src="script.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+  <script src="auth.js" ></script>  
+</body>
+</html>
